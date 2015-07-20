@@ -29,9 +29,10 @@ How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     It would be much much more difficult to collaborate without some central
-	webbased site to hold the master files. 
+	web based site to hold the master files. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    This allows you to try out features, find bugs and troubleshoot issues
+	without committing them to the central master branch. 
