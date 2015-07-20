@@ -15,11 +15,20 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	When I implement a major structural change in the ramwalk controller like 
+	a zero order hold
 
 How do the diagrams help you visualize the branch structure?
-
+	They help you keep track of the heads and what places are reachable so you
+	don't accidentally lose all your work
+	
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+    We combine the changes made to files along multiple work progressions in 
+	an intelegent way.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+    The auto merging is conservative in that it tries hard to not assume much
+	about what is "correct" and instead if very predictable. It will force the
+	user to fix more complex problems themselves.
